@@ -11,7 +11,6 @@ int main()
 	c=i/100-i/1000*10;
 	d=i/10-i/100*10;
 	ans=i-a*1000-c*100-d*10-b+b*1000+c*100+d*10+a;
-	printf("%d %d %d %d\n",a,b,c,d);
 	printf("%d",ans);
 	return 0;
 }
